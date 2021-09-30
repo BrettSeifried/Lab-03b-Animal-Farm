@@ -30,13 +30,13 @@ fellowImg.addEventListener('click', ()=>{
 
 window.addEventListener('keydown', (event) => {
     if (event.key === 's') {
-    swordSound.play();}
+        swordSound.play();}
     if (event.key === 'a') {
-    swordSound.play();}
+        swordSound.play();}
     if (event.key === 'l') {
-    bowSound.play();}
+        bowSound.play();}
     if (event.key === 'g') {
-    axeSound.play();}
+        axeSound.play();}
     if (event.key === 'f') {
-    ringSound.play();}
+        ringSound.play();}
 });
