@@ -13,19 +13,21 @@ main {
 h1 {
     text-align: center;
     font-size: 4rem;
+    font-size: relative;
     height: 5px;
     margin: 5px;
 }
 
 h2 {
     font-size: 3rem;
+    font-size: relative;
 }
 
 .heros img {
     position: relative;
     /* width: 30vw; */
     /* margin: 3%; */
-    height: 20vw;
+    height: 25vw;
     border-radius: 20px;
     padding: 10px;
     cursor: pointer;
@@ -41,17 +43,18 @@ h2 {
 }
 
 #fellowship {
-    width: 91vw;
+    width: 82vw;
     border-radius: 20px;
     border: solid 3px black;
     cursor: pointer;
     border-width: 8px;
-    opacity: 70%;
     transition: ease-in-out .5s;
 }
 
-#fellowship :hover {
+.fellowshipClass :hover {
     opacity: 100%;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transform: ease-in-out .5s;
 }
 
 figcaption {
